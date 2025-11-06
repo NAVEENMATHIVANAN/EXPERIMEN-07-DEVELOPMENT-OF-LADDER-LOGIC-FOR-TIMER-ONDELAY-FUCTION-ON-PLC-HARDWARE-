@@ -11,7 +11,7 @@ PLC Software	WPLSoft (for programming Delta PLCs)
 Input Devices	Push Button (NO)
 Output Devices	LED Indicator / Lamp
 Power Supply	24V DC for I/O, 230V AC for PLC (as per specs)
-### Theory:A
+### Theory:
 An ON-Delay Timer (TON) starts counting after the input condition is TRUE. The output turns ON after the preset time elapses.
 
 ## TON Instruction Format in Delta PLC:
@@ -55,6 +55,9 @@ S.No	Input (X0)	Time Delay (sec)	Output (Y0)
 ###  HARDWARE SETUP 
 ![WhatsApp Image 2025-05-22 at 16 33 34_789f15dc](https://github.com/user-attachments/assets/0de00830-67ec-4e8d-8e22-ac66ec583393)
 ![WhatsApp Image 2025-05-22 at 16 33 35_498436d8](https://github.com/user-attachments/assets/4ffe8320-b214-422a-a885-2711c8be7f65)
+![WhatsApp Image 2025-10-31 at 00 15 51_00fa98d1](https://github.com/user-attachments/assets/a55466a4-805a-4eca-a5fa-1d82a988382a)
+
+
 
 
 ### LADDER LOGIC:
